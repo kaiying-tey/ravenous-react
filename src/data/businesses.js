@@ -1,0 +1,53 @@
+const businesses = [
+    {
+      id: 1,
+      imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+      name: 'Pizza Palace',
+      address: '123 Main Street',
+      city: 'San Francisco',
+      state: 'CA',
+      zipCode: '94111',
+      category: 'Italian',
+      rating: 4.5,
+      reviewCount: 90,
+    },
+    {
+      id: 2,
+      imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+      name: 'Sushi Central',
+      address: '456 Ocean Drive',
+      city: 'Los Angeles',
+      state: 'CA',
+      zipCode: '90001',
+      category: 'Japanese',
+      rating: 4.8,
+      reviewCount: 120,
+    },
+    {
+      id: 3,
+      imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+      name: 'Burger Barn',
+      address: '789 Grill Lane',
+      city: 'Austin',
+      state: 'TX',
+      zipCode: '73301',
+      category: 'American',
+      rating: 4.2,
+      reviewCount: 75,
+    },
+    {
+        id: 4,
+        imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
+        name: 'Burger Barn',
+        address: '789 Grill Lane',
+        city: 'Austin',
+        state: 'TX',
+        zipCode: '73301',
+        category: 'American',
+        rating: 4.2,
+        reviewCount: 75,
+      },
+];
+  
+export default businesses;
+  

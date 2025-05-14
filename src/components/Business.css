@@ -1,0 +1,47 @@
+.business {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 350px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+  
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.business-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+  
+.address, .reviews {
+    font-size: 14px;
+}
+
+.rating {
+    color: #f29c1f;
+}
+
+.address a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    transition: color 0.2s, transform 0.2s;
+}
+  
+.address a:hover {
+    color: #233dd3;
+    transform: translateY(-2px);
+}
+  
+.address a p {
+    line-height: 0.5;
+}
+  
+  
