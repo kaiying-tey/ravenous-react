@@ -45,6 +45,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### ⚠️ CORS Proxy Access Required
+
+If you see a message like:
+"see /corsdemo for more info" in the browser console log, it means the CORS proxy is temporarily restricted.
+
+👉 To fix this, please visit:
+[https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo). Click the "Request temporary access" button, and then refresh your app.
+
 ## 🧪 Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
