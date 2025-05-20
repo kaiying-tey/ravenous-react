@@ -27,6 +27,10 @@
     color: white;
 }
 
+.sort-options li:hover{
+    background-color: #ffd76a;
+}
+
 .search-fields input {
     margin: 5px;
     padding: 10px;

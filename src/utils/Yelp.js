@@ -17,6 +17,7 @@ const Yelp = {
         })
         .then(jsonResponse => {
           if (!jsonResponse.businesses) return [];
+          console.log(jsonResponse); // Print out the response
           return jsonResponse.businesses.map(business => ({
             id: business.id,
             imageSrc: business.image_url,

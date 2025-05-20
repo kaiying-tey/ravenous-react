@@ -28,11 +28,12 @@ const SearchBar = ({onSearch}) => {
   };
 
   const handleSearch = () => {
-    // this will call Yelp API later
     console.log(`Searching Yelp with "${term}" in "${location}" sorted by ${sortBy}`);
     // alert("Searching");
     if(term && location){
       onSearch(term, location, sortBy);
+    } else{
+      alert('Searching term and location must be valid (not empty)!');
     }
   };
 
